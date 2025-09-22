@@ -1,4 +1,4 @@
-cd /home/hero/Desktop/birdiebot_nav_ws
+cd /home/hero/Desktop/26_birdiebot_nav
 #colcon build --symlink-install
 sudo chmod 777 /dev/ttyUSB0
 . install/setup.sh
