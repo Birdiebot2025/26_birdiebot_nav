@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pq/Desktop/rm_vision/install/teb_msgs/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/rm_decision_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/costmap_converter_msgs/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pq/Desktop/rm_vision/install/teb_msgs/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/rm_decision_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/costmap_converter_msgs/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pq/Desktop/rm_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

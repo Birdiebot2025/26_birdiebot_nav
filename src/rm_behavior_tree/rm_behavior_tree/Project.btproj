@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="RMUC.xml"/>
+    <include path="RMUC_02.xml"/>
+    <include path="RMUL.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Control ID="DecisionSwitch" editable="true">
+            <input_port name="message" default="{decision_status}"/>
+        </Control>
+        <Action ID="IsCenterTriggered" editable="true">
+            <input_port name="message" default="{decision_status}"/>
+        </Action>
+        <Action ID="IsEnemyOutpostOK" editable="true">
+            <input_port name="robot_status" default="{decision_status}"/>
+            <input_port name="robot_hp" default="{decision_status}"/>
+            <input_port name="hp_threshold" default="0"/>
+        </Action>
+        <Action ID="IsGameStart" editable="true">
+            <input_port name="message" default="{decision_status}"/>
+        </Action>
+        <!-- <Action ID="IsGameStart" editable="true">
+            <input_port name="message" default="{game_status}"/>
+        </Action> -->
+        <Action ID="IsOutpostOK" editable="true">
+            <input_port name="robot_status" default="{decision_status}"/>
+            <input_port name="robot_hp" default="{decision_status}"/>
+            <input_port name="hp_threshold" default="10"/>
+        </Action>
+        <Action ID="IsStatusOK" editable="true">
+            <input_port name="message" default="{decision_status}"/>
+            <input_port name="hp_threshold" default="100"/>
+        </Action>
+        <Action ID="IsTimeTriggered" editable="true">
+            <input_port name="message" default="{decision_status}"/>
+            <input_port name="flag_time" default="300"/>
+        </Action>
+        <Action ID="MoveAround" editable="true">
+            <input_port name="expected_nearby_goal_count" default="5"/>
+            <input_port name="expected_dis" default="0.3"/>
+            <input_port name="message" default="{current_location}"/>
+        </Action>
+        <Action ID="SendGoal" editable="true">
+            <input_port name="goal_pose" default="0;0;0; 0;0;0;1"/>
+            <input_port name="action_name" default="navigate_to_pose"/>
+        </Action>
+        <Action ID="SimpleSuccess"/>
+        <Action ID="SleepAction" editable="true">
+            <input_port name="sleep_duration" default="5000"/>
+        </Action>
+        <Action ID="SubAllRobotHP" editable="true">
+            <input_port name="topic_name" default="robot_hp"/>
+            <output_port name="robot_hp" default="{decision_status}"/>
+        </Action>
+        <Action ID="SubDecisionNum" editable="true">
+            <input_port name="topic_name" default="decision_num"/>
+            <output_port name="decision_num" default="{decision_status}"/>
+        </Action>
+        <Action ID="SubDecisionStatus" editable="true">
+            <input_port name="topic_name" default="decision_status"/>
+            <output_port name="decision_status" default="{decision_status}"/>
+        </Action>
+        <Action ID="SubGameStatus" editable="true">
+            <input_port name="topic_name" default="game_status"/>
+            <output_port name="game_status" default="{decision_status}"/>
+        </Action>
+        <Action ID="SubRobotStatus" editable="true">
+            <input_port name="topic_name" default="robot_status"/>
+            <output_port name="robot_status" default="{decision_status}"/>
+        </Action>
+    </TreeNodesModel>
+</root>

@@ -1,0 +1,3 @@
+[submodule "include/host-protocol"]
+	path = include/host-protocol
+	url = git@github.com:Birdiebot2024/sues-rm-protocol

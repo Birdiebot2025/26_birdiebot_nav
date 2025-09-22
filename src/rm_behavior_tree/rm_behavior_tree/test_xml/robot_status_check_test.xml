@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <SubDecisionStatus topic_name="decision_status"
+                         decision_status="{decision_status}"/>
+      <IfThenElse>
+        <IsGameStart message="{decision_status}"/>
+        <Sequence>
+          <IfThenElse>
+            <IsStatusOK message="{decision_status}"
+                        hp_threshold="100"/>
+            <Sequence>
+              <SendGoal goal_pose="8.5;-0.1;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+              <SendGoal goal_pose="7.2;5.3;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+              <SendGoal goal_pose="2.9;2.2;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+            </Sequence>
+            <Sequence>
+              <SendGoal goal_pose="0;0;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+            </Sequence>
+          </IfThenElse>
+        </Sequence>
+        <Sequence>
+          <SendGoal goal_pose="0;0;0; 0;0;0;1"
+                    action_name="navigate_to_pose"/>
+        </Sequence>
+      </IfThenElse>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="IsGameStart"
+            editable="true">
+      <input_port name="message"
+                  default="{decision_status}"/>
+    </Action>
+    <Action ID="IsStatusOK"
+            editable="true">
+      <input_port name="message"
+                  default="{decision_status}"/>
+      <input_port name="hp_threshold"
+                  default="100"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0;0;0; 0;0;0;1"/>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <Action ID="SubDecisionStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="decision_status"/>
+      <output_port name="decision_status"
+                   default="{decision_status}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
