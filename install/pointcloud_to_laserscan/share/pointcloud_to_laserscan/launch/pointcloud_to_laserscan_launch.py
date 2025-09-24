@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py

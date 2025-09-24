@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/fast_lio/rosidl_generator_cpp/fast_lio/msg/pose6_d.hpp

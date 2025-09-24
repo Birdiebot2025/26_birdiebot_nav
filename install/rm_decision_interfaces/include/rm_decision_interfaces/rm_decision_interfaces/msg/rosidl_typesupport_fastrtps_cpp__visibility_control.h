@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

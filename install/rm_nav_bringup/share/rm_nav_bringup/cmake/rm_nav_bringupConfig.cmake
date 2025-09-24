@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/rm_nav_bringup/ament_cmake_core/rm_nav_bringupConfig.cmake

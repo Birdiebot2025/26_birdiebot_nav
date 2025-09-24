@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter_msgs/ament_cmake_environment_hooks/pythonpath.sh

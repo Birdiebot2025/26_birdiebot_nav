@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/btcpp_ros2_interfaces/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c

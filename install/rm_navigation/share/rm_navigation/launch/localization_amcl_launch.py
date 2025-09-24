@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation/launch/localization_amcl_launch.py

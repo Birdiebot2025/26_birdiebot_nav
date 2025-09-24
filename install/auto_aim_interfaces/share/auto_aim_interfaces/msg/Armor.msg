@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces/msg/Armor.msg

@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio/launch/mapping_ouster64.launch.py

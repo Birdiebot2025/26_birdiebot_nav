@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
