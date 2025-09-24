@@ -1,0 +1,49 @@
+[0.021s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2 -- -j8 -l8
+[0.043s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.177s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.238s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.239s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.245s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.327s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.578s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.617s] -- Found behaviortree_cpp: 4.7.1 (/opt/ros/humble/share/behaviortree_cpp/cmake)
+[0.715s] -- Configuring done
+[0.716s] -- Generating done
+[0.718s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2
+[0.744s] [35m[1mConsolidate compiler generated dependencies of target behaviortree_ros2[0m
+[0.799s] [ 50%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros2.cpp.o[0m
+[14.745s] [100%] [32m[1mLinking CXX static library libbehaviortree_ros2.a[0m
+[14.857s] [100%] Built target behaviortree_ros2
+[14.922s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2 -- -j8 -l8
+[15.246s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2
+[15.272s] -- Install configuration: ""
+[15.273s] -- Execute custom install script
+[15.274s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_action_node.hpp
+[15.274s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_service_node.hpp
+[15.274s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_topic_pub_node.hpp
+[15.275s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_topic_sub_node.hpp
+[15.275s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/plugins.hpp
+[15.285s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/include//behaviortree_ros2/ros_node_params.hpp
+[15.286s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/ament_index/resource_index/package_run_dependencies/behaviortree_ros2
+[15.286s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/ament_index/resource_index/parent_prefix_path/behaviortree_ros2
+[15.287s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/ament_prefix_path.sh
+[15.287s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/ament_prefix_path.dsv
+[15.287s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/path.sh
+[15.291s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/path.dsv
+[15.291s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.bash
+[15.292s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.sh
+[15.292s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.zsh
+[15.292s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.dsv
+[15.292s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.dsv
+[15.338s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/ament_index/resource_index/packages/behaviortree_ros2
+[15.339s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.339s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.340s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2Config.cmake
+[15.340s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2Config-version.cmake
+[15.340s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.xml
+[15.367s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/behaviortree_ros2

@@ -1,0 +1,90 @@
+[  4%] Built target rm_behavior_tree
+[  9%] Built target rate_controller
+[ 13%] Built target decision_switch
+[ 18%] Built target is_game_start
+[ 22%] Built target is_status_ok
+[ 27%] Built target is_bullet_ok
+[ 31%] Built target is_outpost_ok
+[ 36%] Built target is_enemy_outpost_ok
+[ 40%] Built target is_time_triggered
+[ 45%] Built target send_goal
+[ 50%] Built target sub_all_robot_hp
+[ 54%] Built target sub_robot_status
+[ 59%] Built target sub_game_status
+[ 63%] Built target sub_decision_num
+[ 68%] Built target sub_cv_decision
+[ 72%] Built target sub_decision_status
+[ 77%] Built target get_current_location
+[ 81%] Built target move_around
+[ 86%] Built target print_message
+[ 90%] Built target sleep_action
+[ 95%] Built target simple_success
+[100%] Built target is_center_triggered
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/bt_conversions.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/calculate_attack_pose.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/get_current_location.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/move_around.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/print_message.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/send_goal.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/simple_success.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sleep_action.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_all_robot_hp.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_cv_decision.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_decision_num.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_decision_status.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_game_status.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/action/sub_robot_status.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_bullet_ok.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_center_triggered.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_enemy_outpost_ok.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_games_start.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_outpost_ok.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_status_ok.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/condition/is_time_triggered.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/control/decision_switch.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/plugins/decorator/rate_controller.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/include/rm_behavior_tree/rm_behavior_tree.h
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/library_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/library_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/librate_controller.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libdecision_switch.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_game_start.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_status_ok.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_bullet_ok.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_outpost_ok.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_enemy_outpost_ok.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_time_triggered.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsend_goal.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_all_robot_hp.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_robot_status.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_game_status.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_decision_num.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_cv_decision.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsub_decision_status.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libget_current_location.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libmove_around.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libprint_message.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsleep_action.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libsimple_success.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/libis_center_triggered.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/lib/rm_behavior_tree/rm_behavior_tree
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/ament_index/resource_index/package_run_dependencies/rm_behavior_tree
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/ament_index/resource_index/parent_prefix_path/rm_behavior_tree
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/ament_index/resource_index/packages/rm_behavior_tree
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/cmake/rm_behavior_treeConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/cmake/rm_behavior_treeConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/rm_behavior_tree/share/rm_behavior_tree/package.xml

@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map/ament_cmake_core/point_lio_with_grid_mapConfig.cmake

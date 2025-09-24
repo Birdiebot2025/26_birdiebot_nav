@@ -1,0 +1,52 @@
+[0.087s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/armor_detector -- -j8 -l8
+[0.315s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[3.384s] [ 13%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[4.564s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[6.861s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[26.216s] [ 33%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[27.608s] [ 33%] Built target armor_detector
+[27.647s] [ 46%] Built target gtest
+[27.676s] [ 60%] Built target gtest_main
+[27.724s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[27.885s] [ 73%] Built target armor_detector_node
+[27.918s] [ 80%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[29.782s] [ 86%] [32m[1mLinking CXX executable test_number_cls[0m
+[30.564s] [ 86%] Built target test_number_cls
+[30.583s] [ 93%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[35.493s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[36.228s] [100%] Built target test_node_startup
+[36.237s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/armor_detector -- -j8 -l8
+[36.273s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/armor_detector
+[36.280s] -- Install configuration: ""
+[36.281s] -- Execute custom install script
+[36.281s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[36.281s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/include/armor_detector/armor.hpp
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/include/armor_detector/detector.hpp
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[36.282s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/lib/libarmor_detector.so
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/model/label.txt
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[36.283s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[36.284s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[36.284s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[36.284s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[36.284s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[36.284s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/package.dsv
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[36.293s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/armor_detector/share/armor_detector/package.xml
+[36.297s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/armor_detector

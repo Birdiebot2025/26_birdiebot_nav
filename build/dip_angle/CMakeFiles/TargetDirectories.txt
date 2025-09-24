@@ -1,0 +1,10 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/dip_angle_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/dip_angle.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/CMakeFiles/install/strip.dir

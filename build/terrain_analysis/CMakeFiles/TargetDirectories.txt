@@ -1,0 +1,10 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/terrain_analysis_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/terrainAnalysis.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/CMakeFiles/install/strip.dir

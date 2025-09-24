@@ -1,0 +1,4 @@
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation -- -j8 -l8
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation -- -j8 -l8
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation

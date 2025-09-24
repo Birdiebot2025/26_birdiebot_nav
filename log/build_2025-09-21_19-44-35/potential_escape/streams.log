@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape -- -j8 -l8
+[0.087s] [100%] Built target nav2_escape_behavior
+[0.119s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape -- -j8 -l8
+[0.181s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape
+[0.202s] -- Install configuration: "Release"
+[0.202s] -- Execute custom install script
+[0.202s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape//behavior_plugin.xml
+[0.202s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/lib/libnav2_escape_behavior.so
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/lib/libnav2_escape_behavior.so
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/include//potential_escape/potential_escape.hpp
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/behavior_plugin.xml
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/library_path.sh
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/library_path.dsv
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/package_run_dependencies/potential_escape
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/parent_prefix_path/potential_escape
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/ament_prefix_path.sh
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/ament_prefix_path.dsv
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/path.sh
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/path.dsv
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.bash
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.sh
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.zsh
+[0.204s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.dsv
+[0.205s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/package.dsv
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/packages/potential_escape
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/nav2_core__pluginlib__plugin/potential_escape
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/rclcpp_components/potential_escape
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_libraries-extras.cmake
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/potential_escapeConfig.cmake
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/potential_escapeConfig-version.cmake
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/package.xml
+[0.214s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape

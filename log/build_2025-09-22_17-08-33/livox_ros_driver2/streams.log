@@ -1,0 +1,207 @@
+[0.024s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2 -- -j8 -l8
+[0.097s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.159s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.184s] [  5%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[0.186s] [  5%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[0.786s] running egg_info
+[0.787s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.787s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.789s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.794s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.801s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.843s] [  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[1.214s] [  7%] Built target livox_ros_driver2_node
+[1.491s] [  8%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[1.496s] [ 10%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[1.730s] [ 12%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[2.019s] [ 12%] Built target livox_interfaces2__rosidl_generator_c
+[2.153s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.258s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.260s] [ 15%] Built target livox_interfaces2__cpp
+[2.333s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.389s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.508s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.531s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.605s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[3.606s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[4.416s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[4.417s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[4.692s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[4.729s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[4.935s] [ 35%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[4.963s] [ 36%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[5.012s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[5.013s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[5.271s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_c
+[5.272s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[5.303s] [ 42%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[5.394s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[5.428s] [ 45%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[5.487s] [ 47%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[5.499s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[5.531s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[5.578s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[5.590s] [ 52%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[6.403s] [ 54%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[6.525s] [ 56%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.695s] [ 57%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[6.821s] [ 57%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[6.998s] [ 57%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[7.830s] [ 59%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[8.134s] [ 59%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[8.252s] [ 59%] Built target livox_interfaces2
+[8.367s] [ 61%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.620s] [ 61%] Built target livox_interfaces2__py
+[10.693s] [ 63%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[10.700s] [ 64%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[10.878s] [ 66%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[10.935s] [ 66%] Built target livox_interfaces2__rosidl_generator_py
+[11.035s] [ 68%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.052s] [ 70%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.052s] [ 71%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[11.265s] [ 73%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.334s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.367s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.448s] [ 77%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[11.476s] [ 77%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[11.528s] [ 77%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[20.148s] [ 78%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[21.821s] [100%] Built target livox_ros_driver2
+[21.849s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2 -- -j8 -l8
+[23.932s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2
+[26.098s] -- Install configuration: ""
+[26.098s] -- Execute custom install script
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[26.098s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[26.099s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[26.101s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.102s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[26.103s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud.rviz
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[26.104s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[26.104s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[26.105s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[26.105s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[26.105s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[26.106s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[26.106s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[26.106s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[26.106s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[26.106s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[26.106s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[26.128s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[26.138s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[26.139s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[26.139s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[26.141s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[26.142s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.142s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[26.142s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.143s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[26.144s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[26.144s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[26.145s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.145s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.145s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[26.145s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.146s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[26.146s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[26.148s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[26.148s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[26.150s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2

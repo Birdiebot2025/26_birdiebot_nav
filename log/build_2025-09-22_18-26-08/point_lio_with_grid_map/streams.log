@@ -1,0 +1,131 @@
+[0.019s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/Point-LIO-grid_map_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.289s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.357s] -- Processor number:  8
+[0.357s] -- core for MP:  3
+[0.358s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.552s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.617s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.619s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.674s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.690s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Looking for pthread.h
+[0.764s] -- Looking for pthread.h - found
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.808s] -- Found Threads: TRUE  
+[0.846s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.847s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.858s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.870s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.881s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.894s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.921s] -- Checking for module 'eigen3'
+[0.928s] --   Found eigen3, version 3.4.0
+[0.947s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.947s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.972s] -- Checking for module 'flann'
+[0.979s] --   Found flann, version 1.9.1
+[1.000s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.000s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.563s] -- Checking for module 'libusb-1.0'
+[1.570s] --   Found libusb-1.0, version 1.0.25
+[1.587s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.588s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.617s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.704s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.707s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.711s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.799s] -- Found Qhull version 8.0.2
+[1.884s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.967s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.967s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.968s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.969s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.969s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.970s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.970s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.970s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.971s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.971s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.972s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.973s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.973s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.974s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.974s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.975s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.976s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.976s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.977s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.977s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.978s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.978s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.978s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.979s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.979s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.001s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.002s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.002s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.066s] -- Found livox_ros_driver2: 1.0.0 (/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.279s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[2.322s] -- Configuring done
+[2.370s] -- Generating done
+[2.377s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map
+[2.388s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/Point-LIO-grid_map_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map
+[2.389s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map -- -j8 -l8
+[2.419s] [ 14%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/li_initialization.cpp.o[0m
+[2.420s] [ 28%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/IMU_Processing.cpp.o[0m
+[2.420s] [ 42%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o[0m
+[2.420s] [ 57%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o[0m
+[2.420s] [ 71%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/preprocess.cpp.o[0m
+[2.421s] [ 85%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o[0m
+[41.584s] [100%] [32m[1mLinking CXX executable pointlio_mapping[0m
+[42.299s] [100%] Built target pointlio_mapping
+[42.305s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map -- -j8 -l8
+[42.307s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map
+[42.311s] -- Install configuration: "Release"
+[42.311s] -- Execute custom install script
+[42.312s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/lib/point_lio_with_grid_map/pointlio_mapping
+[42.317s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/config/avia.yaml
+[42.322s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/config/horizon.yaml
+[42.327s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/config/mid360.yaml
+[42.333s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/config/ouster64.yaml
+[42.338s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/config/velody16.yaml
+[42.343s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/launch/point_lio.launch.py
+[42.349s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/rviz_cfg/.gitignore
+[42.354s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/rviz_cfg/loam_livox.rviz
+[42.360s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/ament_index/resource_index/package_run_dependencies/point_lio_with_grid_map
+[42.365s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/ament_index/resource_index/parent_prefix_path/point_lio_with_grid_map
+[42.370s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/environment/ament_prefix_path.sh
+[42.375s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/environment/ament_prefix_path.dsv
+[42.380s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/environment/path.sh
+[42.385s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/environment/path.dsv
+[42.391s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/local_setup.bash
+[42.397s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/local_setup.sh
+[42.402s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/local_setup.zsh
+[42.407s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/local_setup.dsv
+[42.413s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/package.dsv
+[42.418s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/ament_index/resource_index/packages/point_lio_with_grid_map
+[42.423s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.428s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/cmake/point_lio_with_grid_mapConfig.cmake
+[42.432s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/cmake/point_lio_with_grid_mapConfig-version.cmake
+[42.437s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/point_lio_with_grid_map/share/point_lio_with_grid_map/package.xml
+[42.444s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map

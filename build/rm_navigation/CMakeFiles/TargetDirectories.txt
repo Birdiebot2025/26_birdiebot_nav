@@ -1,0 +1,9 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/rm_navigation_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/CMakeFiles/install/strip.dir

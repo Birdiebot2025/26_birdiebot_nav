@@ -1,0 +1,26 @@
+[0.048s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action -- -j8 -l8
+[0.105s] [100%] Built target nav2_escape_action_bt_node
+[0.134s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action -- -j8 -l8
+[0.177s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action
+[0.202s] -- Install configuration: ""
+[0.202s] -- Execute custom install script
+[0.203s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/lib/libnav2_escape_action_bt_node.so
+[0.203s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/nav2_tree_nodes.xml
+[0.203s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/include//potential_escape_action/potential_escape_action.hpp
+[0.205s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/ament_index/resource_index/package_run_dependencies/potential_escape_action
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/ament_index/resource_index/parent_prefix_path/potential_escape_action
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/environment/path.sh
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/environment/path.dsv
+[0.206s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/local_setup.bash
+[0.207s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/local_setup.sh
+[0.207s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/local_setup.zsh
+[0.207s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/local_setup.dsv
+[0.207s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/package.dsv
+[0.208s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/ament_index/resource_index/packages/potential_escape_action
+[0.212s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.212s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/cmake/potential_escape_actionConfig.cmake
+[0.212s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/cmake/potential_escape_actionConfig-version.cmake
+[0.212s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape_action/share/potential_escape_action/package.xml
+[0.249s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape_action

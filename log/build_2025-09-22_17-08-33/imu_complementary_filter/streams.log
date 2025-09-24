@@ -1,0 +1,40 @@
+[0.027s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter -- -j8 -l8
+[0.247s] [ 20%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[0.326s] [ 40%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[27.340s] [ 60%] [32m[1mLinking CXX shared library libcomplementary_filter.so[0m
+[27.542s] [ 60%] Built target complementary_filter
+[27.567s] [ 80%] [32m[1mLinking CXX executable complementary_filter_node[0m
+[27.722s] [100%] Built target complementary_filter_node
+[27.744s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter -- -j8 -l8
+[27.832s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter
+[27.841s] -- Install configuration: ""
+[27.841s] -- Execute custom install script
+[27.842s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node
+[27.843s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+[27.843s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+[27.843s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[27.845s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh
+[27.845s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv
+[27.846s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[27.846s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[27.847s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[27.848s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[27.848s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh
+[27.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv
+[27.850s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash
+[27.850s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv
+[27.855s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[27.855s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.xml
+[27.855s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so
+[27.855s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""
+[27.855s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[27.855s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake
+[27.910s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/imu_complementary_filter

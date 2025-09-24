@@ -1,0 +1,11 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/fake_baselink_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/fake_baselink.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/fake_baselink_node.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/CMakeFiles/install/strip.dir

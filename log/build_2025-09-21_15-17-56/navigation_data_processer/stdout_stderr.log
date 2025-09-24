@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target navigation_data_processer[0m
+[100%] Built target navigation_data_processer
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/lib/navigation_data_processer/navigation_data_processer
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/ament_index/resource_index/package_run_dependencies/navigation_data_processer
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/ament_index/resource_index/parent_prefix_path/navigation_data_processer
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/ament_index/resource_index/packages/navigation_data_processer
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/cmake/navigation_data_processerConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/cmake/navigation_data_processerConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_data_processer/share/navigation_data_processer/package.xml

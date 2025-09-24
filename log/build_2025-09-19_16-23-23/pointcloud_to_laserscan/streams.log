@@ -1,0 +1,84 @@
+[0.056s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[0.346s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.713s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.719s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.805s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.225s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.235s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pointcloud_to_laserscan` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.250s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.251s] -- Configured cppcheck include dirs: /home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan/include
+[1.251s] -- Configured cppcheck exclude dirs and/or files: 
+[1.253s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.253s] -- Configured cpplint exclude dirs and/or files: 
+[1.254s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.254s] -- Added test 'lint_cmake' to check CMake code style
+[1.255s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.255s] -- Added test 'uncrustify' to check C / C++ code style
+[1.256s] -- Configured uncrustify additional arguments: 
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.284s] -- Configuring done
+[1.403s] -- Generating done
+[1.403s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan
+[1.538s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud[0m
+[1.562s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud_node[0m
+[1.562s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan_node[0m
+[1.622s] [ 10%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[1.628s] [ 20%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[1.648s] [ 30%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[9.308s] [ 40%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[9.583s] [ 40%] Built target pointcloud_to_laserscan_node
+[9.693s] [ 50%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[10.036s] [ 50%] Built target laserscan_to_pointcloud_node
+[24.400s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[24.726s] [ 60%] Built target laserscan_to_pointcloud
+[24.751s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[24.785s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[41.859s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[42.091s] [ 80%] Built target pointcloud_to_laserscan
+[42.114s] [35m[1mConsolidate compiler generated dependencies of target dummy_pointcloud_publisher[0m
+[42.137s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[48.217s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[48.449s] [100%] Built target dummy_pointcloud_publisher
+[48.481s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[48.658s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan
+[51.500s] -- Install configuration: ""
+[51.500s] -- Execute custom install script
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[51.501s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[51.502s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[51.502s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[51.524s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan

@@ -1,0 +1,89 @@
+[0.084s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter -- -j8 -l8
+[4.828s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.828s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.828s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[4.828s] -- Found costmap_converter_msgs: 0.1.2 (/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[4.828s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.828s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.828s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.828s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.828s] -- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[4.828s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.828s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.828s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.828s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.828s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.829s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.829s] -- Configuring done
+[4.829s] -- Generating done
+[4.829s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter
+[4.829s] [35m[1mConsolidate compiler generated dependencies of target costmap_converter[0m
+[4.829s] [  5%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons.cpp.o[0m
+[9.576s] [ 10%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/background_subtractor.cpp.o[0m
+[10.862s] [ 15%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/blob_detector.cpp.o[0m
+[13.570s] [ 21%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.cpp.o[0m
+[15.817s] [ 26%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.cpp.o[0m
+[18.392s] [ 31%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.cpp.o[0m
+[20.694s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp.o[0m
+[42.771s] [ 42%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_ransac.cpp.o[0m
+[50.215s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_convex_hull.cpp.o[0m
+[57.184s] [ 52%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons_concave.cpp.o[0m
+[64.041s] [ 57%] [32m[1mLinking CXX shared library libcostmap_converter.so[0m
+[64.563s] [ 57%] Built target costmap_converter
+[64.579s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[64.611s] [ 68%] Built target gtest
+[64.632s] [35m[1mConsolidate compiler generated dependencies of target standalone_converter[0m
+[64.661s] [ 73%] [32mBuilding CXX object CMakeFiles/standalone_converter.dir/src/costmap_converter_node.cpp.o[0m
+[77.532s] [ 78%] [32m[1mLinking CXX executable standalone_converter[0m
+[77.740s] [ 78%] Built target standalone_converter
+[77.750s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[77.760s] [ 89%] Built target gtest_main
+[77.770s] [35m[1mConsolidate compiler generated dependencies of target test_costmap_polygons[0m
+[77.787s] [ 94%] [32mBuilding CXX object CMakeFiles/test_costmap_polygons.dir/test/costmap_polygons.cpp.o[0m
+[83.334s] [100%] [32m[1mLinking CXX executable test_costmap_polygons[0m
+[83.851s] [100%] Built target test_costmap_polygons
+[83.859s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter -- -j8 -l8
+[83.904s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter
+[83.910s] -- Install configuration: "Release"
+[83.910s] -- Execute custom install script
+[83.910s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/lib/libcostmap_converter.so
+[83.911s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/bin/standalone_converter
+[83.912s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[83.912s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[83.912s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[83.912s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[83.913s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[83.913s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[83.913s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[83.913s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[83.913s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/include//costmap_converter/misc.h
+[83.914s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[83.915s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[83.915s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[83.915s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[83.915s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[83.917s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[83.918s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[83.919s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[83.926s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[83.926s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[83.926s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[83.927s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[83.927s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.927s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[83.927s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[83.927s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter/share/costmap_converter/package.xml
+[83.930s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/lib:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2023.3.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter

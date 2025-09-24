@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <ReactiveSequence>
+      <SubAllRobotHP topic_name="robot_hp"
+                     robot_hp="{robot_hp}"/>
+      <SubRobotStatus topic_name="robot_status"
+                      robot_status="{robot_status}"/>
+      <SubGameStatus topic_name="game_status"
+                     game_status="{game_status}"/>
+      <SubDecisionNum topic_name="decision_num"
+                      decision_num="{decision_num}"/>
+      <Sequence>
+        <IsGameStart message="{game_status}"/>
+        <IfThenElse>
+          <IsEnemyOutpostOK robot_status="{robot_status}"
+                            robot_hp="{robot_hp}"
+                            hp_threshold="1400"/>
+          <Sequence>
+            <SendGoal name="PatrolPoint1"
+                      goal_pose="7.5;0;0; 0;0;0;1"
+                      action_name="navigate_to_pose"/>
+          </Sequence>
+          <Sequence>
+            <SendGoal name="PatrolPoint2"
+                      goal_pose="0;0;0; 0;0;0;1"
+                      action_name="navigate_to_pose"/>
+          </Sequence>
+        </IfThenElse>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="IsEnemyOutpostOK"
+            editable="true">
+      <input_port name="robot_status"
+                  default="{robot_status}"/>
+      <input_port name="robot_hp"
+                  default="{robot_hp}"/>
+      <input_port name="hp_threshold"
+                  default="0"/>
+    </Action>
+    <Action ID="IsGameStart"
+            editable="true">
+      <input_port name="message"
+                  default="{game_status}"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0;0;0; 0;0;0;1"/>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <Action ID="SubAllRobotHP"
+            editable="true">
+      <input_port name="topic_name"
+                  default="robot_hp"/>
+      <output_port name="robot_hp"
+                   default="{robot_hp}"/>
+    </Action>
+    <Action ID="SubDecisionNum"
+            editable="true">
+      <input_port name="topic_name"
+                  default="decision_num"/>
+      <output_port name="decision_num"
+                   default="{decision_num}"/>
+    </Action>
+    <Action ID="SubGameStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="game_status"/>
+      <output_port name="game_status"
+                   default="{game_status}"/>
+    </Action>
+    <Action ID="SubRobotStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="robot_status"/>
+      <output_port name="robot_status"
+                   default="{robot_status}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

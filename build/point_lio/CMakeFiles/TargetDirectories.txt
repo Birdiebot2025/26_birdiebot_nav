@@ -1,0 +1,10 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/point_lio_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/pointlio_mapping.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/point_lio/CMakeFiles/install/strip.dir

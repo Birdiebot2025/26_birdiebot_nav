@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0feb7e088ceb26ab33fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "point_lio_with_grid_map",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "point_lio_with_grid_map_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_lio_with_grid_map_uninstall-Release-5fdea61ed30784a45f05.json",
+					"name" : "point_lio_with_grid_map_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointlio_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointlio_mapping-Release-079d5baa09db5dee2b3c.json",
+					"name" : "pointlio_mapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a42bb6611d48e25367f9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hero/Desktop/birdiebot_nav_ws/build/point_lio_with_grid_map",
+		"source" : "/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/Point-LIO-grid_map_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,156 @@
+[0.025s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces -- -j8 -l8
+[0.096s] [  3%] Built target navigation_interfaces__cpp
+[0.167s] [  3%] Built target ament_cmake_python_symlink_navigation_interfaces
+[0.167s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.174s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.175s] [ 12%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_interfaces/msg/detail/navigation__functions.c.o[0m
+[0.291s] [ 16%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_interfaces/msg/detail/navigation__type_support.cpp.o[0m
+[0.443s] [ 19%] [32m[1mLinking C shared library libnavigation_interfaces__rosidl_generator_c.so[0m
+[0.691s] [ 22%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_interfaces/msg/navigation__type_support.cpp.o[0m
+[0.758s] [ 25%] Built target navigation_interfaces__rosidl_generator_c
+[0.824s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.938s] [ 32%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_interfaces/msg/detail/navigation__type_support.c.o[0m
+[0.963s] [ 35%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_interfaces/msg/detail/navigation__type_support_c.cpp.o[0m
+[1.201s] [ 38%] [32m[1mLinking C shared library libnavigation_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.316s] running egg_info
+[1.318s] writing navigation_interfaces.egg-info/PKG-INFO
+[1.332s] writing dependency_links to navigation_interfaces.egg-info/dependency_links.txt
+[1.332s] writing top-level names to navigation_interfaces.egg-info/top_level.txt
+[1.332s] reading manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[1.332s] writing manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[1.409s] [ 41%] Built target navigation_interfaces__rosidl_typesupport_introspection_c
+[1.443s] [ 41%] Built target ament_cmake_python_build_navigation_interfaces_egg
+[1.623s] [ 45%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_interfaces/msg/detail/dds_fastrtps/navigation__type_support.cpp.o[0m
+[2.901s] [ 48%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_cpp.so[0m
+[3.055s] [ 51%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_interfaces/msg/navigation__type_support.cpp.o[0m
+[3.087s] [ 54%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.286s] [ 54%] Built target navigation_interfaces__rosidl_typesupport_cpp
+[3.312s] [ 58%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_c.so[0m
+[3.363s] [ 61%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.633s] [ 61%] Built target navigation_interfaces__rosidl_typesupport_c
+[3.695s] [ 64%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.726s] [ 67%] Built target navigation_interfaces__rosidl_typesupport_introspection_cpp
+[3.947s] [ 70%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_c
+[4.342s] [ 70%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.519s] [ 70%] Built target navigation_interfaces
+[4.727s] [ 74%] Built target navigation_interfaces__py
+[4.999s] [ 77%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/msg/_navigation_s.c.o[0m
+[5.467s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/navigation_interfaces/libnavigation_interfaces__rosidl_generator_py.so[0m
+[5.734s] [ 80%] Built target navigation_interfaces__rosidl_generator_py
+[5.899s] [ 83%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.914s] [ 87%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.949s] [ 90%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.378s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.391s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.472s] [100%] [32m[1mLinking C shared library rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.491s] [100%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.625s] [100%] Built target navigation_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.700s] [100%] Built target navigation_interfaces__rosidl_typesupport_c__pyext
+[6.786s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces -- -j8 -l8
+[7.859s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces
+[7.874s] -- Install configuration: ""
+[7.874s] -- Execute custom install script
+[7.874s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_interfaces
+[7.874s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__functions.h
+[7.874s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__struct.h
+[7.874s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__type_support.h
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/navigation.h
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.sh
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.dsv
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__rosidl_typesupport_fastrtps_c.h
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.892s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__rosidl_typesupport_introspection_c.h
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__builder.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__struct.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__traits.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__type_support.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/navigation.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/detail/navigation__rosidl_typesupport_introspection_cpp.hpp
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.sh
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.dsv
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/__init__.py
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/libnavigation_interfaces__rosidl_generator_py.so
+[7.893s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg/__init__.py
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg/_navigation.py
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg/_navigation_s.c
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/msg/Navigation.idl
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/msg/Navigation.msg
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_interfaces
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_interfaces
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.sh
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.dsv
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.sh
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.dsv
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.bash
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.sh
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.zsh
+[7.894s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.dsv
+[7.894s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/package.dsv
+[7.963s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/ament_index/resource_index/packages/navigation_interfaces
+[7.964s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.965s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.967s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.968s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.969s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.969s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.970s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.971s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig.cmake
+[7.972s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig-version.cmake
+[7.973s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/package.xml
+[7.973s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so
+[7.976s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so" to ""
+[7.977s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.979s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.980s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so
+[7.986s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.988s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so
+[7.991s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so" to ""
+[7.992s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.014s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.014s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.014s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.014s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so
+[8.014s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.169s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces'...
+[8.169s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/__init__.py'...
+[8.169s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg'...
+[8.169s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg/__init__.py'...
+[8.169s] Compiling '/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages/navigation_interfaces/msg/_navigation.py'...
+[8.172s] -- Installing: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so
+[8.172s] -- Set runtime path of "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so" to ""
+[8.173s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport.cmake
+[8.173s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.174s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.175s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.175s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.176s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.176s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport.cmake
+[8.177s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.178s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cppExport.cmake
+[8.178s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.179s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.179s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.180s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.180s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport.cmake
+[8.181s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.182s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport.cmake
+[8.182s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.192s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces

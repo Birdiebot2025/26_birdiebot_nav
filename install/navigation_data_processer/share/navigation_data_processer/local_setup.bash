@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/ament_cmake_environment_hooks/local_setup.bash

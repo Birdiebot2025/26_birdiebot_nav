@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c

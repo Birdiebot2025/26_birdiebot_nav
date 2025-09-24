@@ -1,0 +1,10 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/navigation_data_processer_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/navigation_data_processer.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/CMakeFiles/install/strip.dir

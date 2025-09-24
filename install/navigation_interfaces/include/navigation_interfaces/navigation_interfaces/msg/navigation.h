@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/msg/navigation.h

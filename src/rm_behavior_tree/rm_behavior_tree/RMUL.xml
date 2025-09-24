@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <SubDecisionStatus topic_name="decision_status"
+                         decision_status="{decision_status}"/>
+      <IfThenElse>
+        <IsGameStart message="{decision_status}"/>
+        <ReactiveSequence>
+          <IfThenElse>
+            <IsStatusOK message="{decision_status}"
+                        hp_threshold="180"/>
+            <ReactiveSequence>
+              <SendGoal goal_pose="4.9;-2.3;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+              <MoveAround expected_nearby_goal_count="1"
+                          expected_dis="0.7"
+                          message="{current_location}"/>
+            </ReactiveSequence>
+            <Sequence>
+              <SendGoal goal_pose="0;0;0; 0;0;0;1"
+                        action_name="navigate_to_pose"/>
+            </Sequence>
+          </IfThenElse>
+        </ReactiveSequence>
+        <Sequence>
+          <SendGoal goal_pose="0;0;0; 0;0;0;1"
+                    action_name="navigate_to_pose"/>
+        </Sequence>
+      </IfThenElse>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="IsGameStart"
+            editable="true">
+      <input_port name="message"
+                  default="{decision_status}"/>
+    </Action>
+    <Action ID="IsStatusOK"
+            editable="true">
+      <input_port name="message"
+                  default="{decision_status}"/>
+      <input_port name="hp_threshold"
+                  default="100"/>
+    </Action>
+    <Action ID="MoveAround"
+            editable="true">
+      <input_port name="expected_nearby_goal_count"
+                  default="5"/>
+      <input_port name="expected_dis"
+                  default="0.3"/>
+      <input_port name="message"
+                  default="{current_location}"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0;0;0; 0;0;0;1"/>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <Action ID="SubDecisionStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="decision_status"/>
+      <output_port name="decision_status"
+                   default="{decision_status}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

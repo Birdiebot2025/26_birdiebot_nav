@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_decision_interfaces/msg/RobotControl.msg
+// generated code does not contain a copyright notice
+
+
+module rm_decision_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "机器人控制命令(云台、底盘)")
+    struct RobotControl {
+      @verbatim (language="comment", text=
+        "是否停止云台扫描 0->扫描状态 1->停止扫描")
+      boolean stop_gimbal_scan;
+
+      @verbatim (language="comment", text=
+        "底盘小陀螺旋转速度(rad/s)")
+      float chassis_spin_vel;
+    };
+  };
+};

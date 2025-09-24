@@ -1,0 +1,42 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle
+[35m[1mConsolidate compiler generated dependencies of target dip_angle[0m
+[100%] Built target dip_angle
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/lib/dip_angle/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/package_run_dependencies/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/parent_prefix_path/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/packages/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.xml

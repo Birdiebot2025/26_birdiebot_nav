@@ -1,0 +1,9 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/rm_auto_aim_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/CMakeFiles/install/strip.dir

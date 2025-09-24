@@ -1,0 +1,30 @@
+[ 50%] Built target icp_registration_node
+[100%] Built target icp_registration
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/lib/icp_registration/icp_registration_node
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/include/icp_registration/icp_registration.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/library_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/library_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/lib/libicp_registration.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/launch/icp.launch.py
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/config/icp.yaml
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/ament_index/resource_index/package_run_dependencies/icp_registration
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/ament_index/resource_index/parent_prefix_path/icp_registration
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/ament_index/resource_index/packages/icp_registration
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/ament_index/resource_index/rclcpp_components/icp_registration
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/cmake/icp_registrationConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/cmake/icp_registrationConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/icp_registration/share/icp_registration/package.xml

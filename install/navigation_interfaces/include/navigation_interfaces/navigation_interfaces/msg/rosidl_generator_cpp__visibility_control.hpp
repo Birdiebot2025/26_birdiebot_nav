@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces/rosidl_generator_cpp/navigation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

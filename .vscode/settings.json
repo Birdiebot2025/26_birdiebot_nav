@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hero/Desktop/birdiebot_nav_ws/install/rm_decision_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hero/Desktop/birdiebot_nav_ws/install/rm_decision_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/navigation_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver"
+}

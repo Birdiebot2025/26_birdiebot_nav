@@ -1,0 +1,4 @@
+source;share/navigation_interfaces/local_setup.bash
+source;share/navigation_interfaces/local_setup.dsv
+source;share/navigation_interfaces/local_setup.sh
+source;share/navigation_interfaces/local_setup.zsh

@@ -1,0 +1,37 @@
+[  9%] [32mBuilding CXX object CMakeFiles/sleep_plugin.dir/src/sleep_action.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/sleep_server.dir/src/sleep_server.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sleep_client.dir/src/sleep_action.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sleep_client.dir/src/sleep_client.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable subscriber_test[0m
+[ 54%] Built target subscriber_test
+[ 63%] [32m[1mLinking CXX executable sleep_server[0m
+[ 63%] Built target sleep_server
+[ 72%] [32m[1mLinking CXX executable sleep_client[0m
+[ 72%] Built target sleep_client
+[ 81%] [32m[1mLinking CXX shared library libsleep_plugin.so[0m
+[ 81%] Built target sleep_plugin
+[ 90%] [32m[1mLinking CXX executable sleep_client_dyn[0m
+[100%] Built target sleep_client_dyn
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/lib/btcpp_ros2_samples/sleep_client
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/lib/btcpp_ros2_samples/sleep_client_dyn
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/lib/btcpp_ros2_samples/sleep_server
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/lib/btcpp_ros2_samples/libsleep_plugin.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/lib/btcpp_ros2_samples/subscriber_test
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/ament_index/resource_index/package_run_dependencies/btcpp_ros2_samples
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/ament_index/resource_index/parent_prefix_path/btcpp_ros2_samples
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/ament_index/resource_index/packages/btcpp_ros2_samples
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/cmake/btcpp_ros2_samplesConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/cmake/btcpp_ros2_samplesConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/btcpp_ros2_samples/share/btcpp_ros2_samples/package.xml

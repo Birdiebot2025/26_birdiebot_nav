@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target dip_angle[0m
+[100%] Built target dip_angle
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/lib/dip_angle/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/package_run_dependencies/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/parent_prefix_path/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/packages/dip_angle
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.xml

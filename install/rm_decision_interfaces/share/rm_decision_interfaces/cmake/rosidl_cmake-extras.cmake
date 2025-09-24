@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

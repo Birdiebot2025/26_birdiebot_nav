@@ -1,0 +1,9 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/rm_gimbal_description_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_gimbal_description/CMakeFiles/install/strip.dir

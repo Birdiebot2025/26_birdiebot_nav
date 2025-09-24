@@ -1,0 +1,620 @@
+[0.798s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/hero/Desktop/birdiebot_nav_ws']
+[0.798s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/hero/Desktop/birdiebot_nav_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7524a8a9c4f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7524a8a9c0a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7524a8a9c0a0>>, mixin_verb=('list',))
+[0.834s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.834s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.834s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.834s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.834s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.834s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/hero/Desktop/birdiebot_nav_ws'
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'ignore'
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'ignore_ament_install'
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['colcon_pkg']
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'colcon_pkg'
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['colcon_meta']
+[0.834s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'colcon_meta'
+[0.835s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['ros']
+[0.835s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'ros'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['cmake', 'python']
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'cmake'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'python'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extensions ['python_setup_py']
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws) by extension 'python_setup_py'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/build) by extension 'ignore'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/build) ignored
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/install) by extension 'ignore'
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/install) ignored
+[0.842s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/log) by extension 'ignore'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/log) ignored
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'ignore'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'ignore_ament_install'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['colcon_pkg']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'colcon_pkg'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['colcon_meta']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'colcon_meta'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['ros']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'ros'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['cmake', 'python']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'cmake'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'python'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extensions ['python_setup_py']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src) by extension 'python_setup_py'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'ignore'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'ignore_ament_install'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['colcon_pkg']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'colcon_pkg'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['colcon_meta']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'colcon_meta'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['ros']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'ros'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['cmake', 'python']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'cmake'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'python'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extensions ['python_setup_py']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim) by extension 'python_setup_py'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extension 'ignore'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extension 'ignore_ament_install'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extensions ['colcon_pkg']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extension 'colcon_pkg'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extensions ['colcon_meta']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extension 'colcon_meta'
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extensions ['ros']
+[0.843s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector) by extension 'ros'
+[0.845s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_detector' with type 'ros.ament_cmake' and name 'armor_detector'
+[0.845s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extension 'ignore'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extension 'ignore_ament_install'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extensions ['colcon_pkg']
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extension 'colcon_pkg'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extensions ['colcon_meta']
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extension 'colcon_meta'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extensions ['ros']
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker) by extension 'ros'
+[0.846s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/armor_tracker' with type 'ros.ament_cmake' and name 'armor_tracker'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore'
+[0.846s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_meta'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extensions ['ros']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces) by extension 'ros'
+[0.847s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'ignore'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'ignore_ament_install'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['colcon_pkg']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'colcon_pkg'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['colcon_meta']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'colcon_meta'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['ros']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'ros'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['cmake', 'python']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'cmake'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'python'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extensions ['python_setup_py']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/docs) by extension 'python_setup_py'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extension 'ignore'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extension 'ignore_ament_install'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_pkg']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extension 'colcon_pkg'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_meta']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extension 'colcon_meta'
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extensions ['ros']
+[0.847s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim) by extension 'ros'
+[0.848s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_auto_aim/rm_auto_aim' with type 'ros.ament_cmake' and name 'rm_auto_aim'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'ignore'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'ignore_ament_install'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['colcon_pkg']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'colcon_pkg'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['colcon_meta']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'colcon_meta'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['ros']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'ros'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['cmake', 'python']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'cmake'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'python'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extensions ['python_setup_py']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree) by extension 'python_setup_py'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'ignore'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'ignore_ament_install'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['colcon_pkg']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'colcon_pkg'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['colcon_meta']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'colcon_meta'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['ros']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'ros'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['cmake', 'python']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'cmake'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'python'
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extensions ['python_setup_py']
+[0.848s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2) by extension 'python_setup_py'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ignore'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ignore_ament_install'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['colcon_pkg']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extension 'colcon_pkg'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['colcon_meta']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extension 'colcon_meta'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['ros']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ros'
+[0.849s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/behaviortree_ros2' with type 'ros.ament_cmake' and name 'behaviortree_ros2'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ignore'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ignore_ament_install'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['colcon_pkg']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'colcon_pkg'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['colcon_meta']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'colcon_meta'
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['ros']
+[0.849s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ros'
+[0.850s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces' with type 'ros.ament_cmake' and name 'btcpp_ros2_interfaces'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ignore'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ignore_ament_install'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['colcon_pkg']
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'colcon_pkg'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['colcon_meta']
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'colcon_meta'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['ros']
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ros'
+[0.850s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_samples' with type 'ros.ament_cmake' and name 'btcpp_ros2_samples'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extension 'ignore'
+[0.850s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extension 'ignore_ament_install'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extensions ['colcon_pkg']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extension 'colcon_pkg'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extensions ['colcon_meta']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extension 'colcon_meta'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extensions ['ros']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree) by extension 'ros'
+[0.851s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_behavior_tree' with type 'ros.ament_cmake' and name 'rm_behavior_tree'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extension 'ignore'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extension 'ignore_ament_install'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extensions ['colcon_pkg']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extension 'colcon_pkg'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extensions ['colcon_meta']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extension 'colcon_meta'
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extensions ['ros']
+[0.851s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces) by extension 'ros'
+[0.852s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/rm_decision_interfaces' with type 'ros.ament_cmake' and name 'rm_decision_interfaces'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extension 'ignore'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extension 'ignore_ament_install'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extensions ['colcon_pkg']
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extension 'colcon_pkg'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extensions ['colcon_meta']
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extension 'colcon_meta'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extensions ['ros']
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description) by extension 'ros'
+[0.852s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_gimbal_description' with type 'ros.ament_cmake' and name 'rm_gimbal_description'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extension 'ignore'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extension 'ignore_ament_install'
+[0.852s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extensions ['colcon_pkg']
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extension 'colcon_pkg'
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extensions ['colcon_meta']
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extension 'colcon_meta'
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extensions ['ros']
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver) by extension 'ros'
+[0.853s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_serial_driver' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'ignore'
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'ignore_ament_install'
+[0.853s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['colcon_pkg']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'colcon_pkg'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['colcon_meta']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'colcon_meta'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['ros']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'ros'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['cmake', 'python']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'cmake'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'python'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extensions ['python_setup_py']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam) by extension 'python_setup_py'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'ignore'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'ignore_ament_install'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['colcon_pkg']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'colcon_pkg'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['colcon_meta']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'colcon_meta'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['ros']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'ros'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['cmake', 'python']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'cmake'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'python'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extensions ['python_setup_py']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src) by extension 'python_setup_py'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extension 'ignore'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extension 'ignore_ament_install'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extensions ['colcon_pkg']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extension 'colcon_pkg'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extensions ['colcon_meta']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extension 'colcon_meta'
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extensions ['ros']
+[0.854s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces) by extension 'ros'
+[0.855s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/navigation_interfaces' with type 'ros.ament_cmake' and name 'navigation_interfaces'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'ignore'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'ignore_ament_install'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['colcon_pkg']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'colcon_pkg'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['colcon_meta']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'colcon_meta'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['ros']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'ros'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['cmake', 'python']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'cmake'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'python'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extensions ['python_setup_py']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver) by extension 'python_setup_py'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'ignore'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'colcon_pkg'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['colcon_meta']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'colcon_meta'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['ros']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'ros'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['cmake', 'python']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'cmake'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'python'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extensions ['python_setup_py']
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2) by extension 'python_setup_py'
+[0.855s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extension 'ignore'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extension 'ignore_ament_install'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extensions ['colcon_pkg']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extension 'colcon_pkg'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extensions ['colcon_meta']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extension 'colcon_meta'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extensions ['ros']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src) by extension 'ros'
+[0.856s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'ignore'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'ignore_ament_install'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['colcon_pkg']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'colcon_pkg'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['colcon_meta']
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'colcon_meta'
+[0.856s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['ros']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'ros'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['cmake', 'python']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'cmake'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'python'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extensions ['python_setup_py']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization) by extension 'python_setup_py'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extension 'ignore'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extension 'ignore_ament_install'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extensions ['colcon_pkg']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extension 'colcon_pkg'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extensions ['colcon_meta']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extension 'colcon_meta'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extensions ['ros']
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO) by extension 'ros'
+[0.857s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.857s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extensions ['ignore', 'ignore_ament_install']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extension 'ignore'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extension 'ignore_ament_install'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extensions ['colcon_pkg']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extension 'colcon_pkg'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extensions ['colcon_meta']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extension 'colcon_meta'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extensions ['ros']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration) by extension 'ros'
+[0.858s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/icp_registration' with type 'ros.ament_cmake' and name 'icp_registration'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extension 'ignore'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extension 'ignore_ament_install'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extensions ['colcon_pkg']
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extension 'colcon_pkg'
+[0.858s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extensions ['colcon_meta']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extension 'colcon_meta'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extensions ['ros']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio) by extension 'ros'
+[0.859s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/point_lio' with type 'ros.ament_cmake' and name 'point_lio'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extension 'ignore'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extension 'ignore_ament_install'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extensions ['colcon_pkg']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extension 'colcon_pkg'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extensions ['colcon_meta']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extension 'colcon_meta'
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extensions ['ros']
+[0.859s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup) by extension 'ros'
+[0.860s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_nav_bringup' with type 'ros.ament_cmake' and name 'rm_nav_bringup'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'ignore'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'ignore_ament_install'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['colcon_pkg']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'colcon_pkg'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['colcon_meta']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'colcon_meta'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['ros']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'ros'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['cmake', 'python']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'cmake'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'python'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extensions ['python_setup_py']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation) by extension 'python_setup_py'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'ignore'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'ignore_ament_install'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['colcon_pkg']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'colcon_pkg'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['colcon_meta']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'colcon_meta'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['ros']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'ros'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['cmake', 'python']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'cmake'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'python'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extensions ['python_setup_py']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter) by extension 'python_setup_py'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extension 'ignore'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extension 'ignore_ament_install'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extensions ['colcon_pkg']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extension 'colcon_pkg'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extensions ['colcon_meta']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extension 'colcon_meta'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extensions ['ros']
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter) by extension 'ros'
+[0.861s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter' with type 'ros.ament_cmake' and name 'costmap_converter'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ignore'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ignore_ament_install'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['colcon_pkg']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'colcon_pkg'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['colcon_meta']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'colcon_meta'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['ros']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ros'
+[0.861s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs' with type 'ros.ament_cmake' and name 'costmap_converter_msgs'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extension 'ignore'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extension 'ignore_ament_install'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extensions ['colcon_pkg']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extension 'colcon_pkg'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extensions ['colcon_meta']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extension 'colcon_meta'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extensions ['ros']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink) by extension 'ros'
+[0.862s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_baselink' with type 'ros.ament_cmake' and name 'fake_baselink'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extension 'ignore'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extension 'ignore_ament_install'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extensions ['colcon_pkg']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extension 'colcon_pkg'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extensions ['colcon_meta']
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extension 'colcon_meta'
+[0.862s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extensions ['ros']
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform) by extension 'ros'
+[0.863s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/fake_vel_transform' with type 'ros.ament_cmake' and name 'fake_vel_transform'
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extension 'ignore'
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extension 'ignore_ament_install'
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extensions ['colcon_pkg']
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extension 'colcon_pkg'
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extensions ['colcon_meta']
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extension 'colcon_meta'
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extensions ['ros']
+[0.863s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer) by extension 'ros'
+[0.864s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/navigation_data_processer' with type 'ros.ament_cmake' and name 'navigation_data_processer'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extension 'ignore'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extension 'ignore_ament_install'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extensions ['colcon_pkg']
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extension 'colcon_pkg'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extensions ['colcon_meta']
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extension 'colcon_meta'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extensions ['ros']
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller) by extension 'ros'
+[0.864s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/pb_omni_pid_pursuit_controller' with type 'ros.ament_cmake' and name 'pb_omni_pid_pursuit_controller'
+[0.864s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'ignore'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'ignore_ament_install'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['colcon_pkg']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'colcon_pkg'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['colcon_meta']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'colcon_meta'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['ros']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'ros'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['cmake', 'python']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'cmake'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'python'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extensions ['python_setup_py']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin) by extension 'python_setup_py'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extension 'ignore'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extension 'ignore_ament_install'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extensions ['colcon_pkg']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extension 'colcon_pkg'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extensions ['colcon_meta']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extension 'colcon_meta'
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extensions ['ros']
+[0.865s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape) by extension 'ros'
+[0.865s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape' with type 'ros.ament_cmake' and name 'potential_escape'
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extension 'ignore'
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extension 'ignore_ament_install'
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extensions ['colcon_pkg']
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extension 'colcon_pkg'
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extensions ['colcon_meta']
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extension 'colcon_meta'
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extensions ['ros']
+[0.866s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action) by extension 'ros'
+[0.867s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/potential_escape_nav_plugin/potential_escape_action' with type 'ros.ament_cmake' and name 'potential_escape_action'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extension 'ignore'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extension 'ignore_ament_install'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extensions ['colcon_pkg']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extension 'colcon_pkg'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extensions ['colcon_meta']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extension 'colcon_meta'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extensions ['ros']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation) by extension 'ros'
+[0.867s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/rm_navigation' with type 'ros.ament_cmake' and name 'rm_navigation'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'ignore'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'ignore_ament_install'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['colcon_pkg']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'colcon_pkg'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['colcon_meta']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'colcon_meta'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['ros']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'ros'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['cmake', 'python']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'cmake'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'python'
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extensions ['python_setup_py']
+[0.867s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception) by extension 'python_setup_py'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extension 'ignore'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extension 'ignore_ament_install'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extensions ['colcon_pkg']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extension 'colcon_pkg'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extensions ['colcon_meta']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extension 'colcon_meta'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extensions ['ros']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle) by extension 'ros'
+[0.868s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/dip_angle' with type 'ros.ament_cmake' and name 'dip_angle'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extension 'ignore'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extension 'colcon_pkg'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extensions ['colcon_meta']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extension 'colcon_meta'
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extensions ['ros']
+[0.868s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter) by extension 'ros'
+[0.869s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'ignore'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'ignore_ament_install'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['colcon_pkg']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'colcon_pkg'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['colcon_meta']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'colcon_meta'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['ros']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'ros'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['cmake', 'python']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'cmake'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'python'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extensions ['python_setup_py']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2) by extension 'python_setup_py'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ignore'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ignore_ament_install'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_pkg']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_pkg'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_meta']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_meta'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['ros']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ros'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['cmake', 'python']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'cmake'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'python'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['python_setup_py']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'python_setup_py'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore'
+[0.869s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore_ament_install'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_pkg']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_pkg'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_meta']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_meta'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ros']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ros'
+[0.870s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore_ament_install'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_pkg']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_pkg'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_meta']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_meta'
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ros']
+[0.870s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ros'
+[0.871s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation_ros'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extension 'ignore'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extensions ['ros']
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan) by extension 'ros'
+[0.871s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extension 'ignore'
+[0.871s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extension 'ignore_ament_install'
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extensions ['colcon_pkg']
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extension 'colcon_pkg'
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extensions ['colcon_meta']
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extension 'colcon_meta'
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extensions ['ros']
+[0.872s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis) by extension 'ros'
+[0.873s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis' with type 'ros.ament_cmake' and name 'terrain_analysis'
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extension 'ignore'
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extension 'ignore_ament_install'
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extensions ['colcon_pkg']
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extension 'colcon_pkg'
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extensions ['colcon_meta']
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extension 'colcon_meta'
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extensions ['ros']
+[0.873s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext) by extension 'ros'
+[0.874s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/terrain_analysis_ext' with type 'ros.ament_cmake' and name 'terrain_analysis_ext'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'ignore'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'ignore_ament_install'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['colcon_pkg']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'colcon_pkg'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['colcon_meta']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'colcon_meta'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['ros']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'ros'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['cmake', 'python']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'cmake'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'python'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extensions ['python_setup_py']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation) by extension 'python_setup_py'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extension 'ignore'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extension 'ignore_ament_install'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extensions ['colcon_pkg']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extension 'colcon_pkg'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extensions ['colcon_meta']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extension 'colcon_meta'
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extensions ['ros']
+[0.874s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2) by extension 'ros'
+[0.875s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/livox_laser_simulation_RO2' with type 'ros.ament_cmake' and name 'ros2_livox_simulation'
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extension 'ignore'
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extension 'ignore_ament_install'
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extensions ['colcon_pkg']
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extension 'colcon_pkg'
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extensions ['colcon_meta']
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extension 'colcon_meta'
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extensions ['ros']
+[0.875s] colcon.colcon_core.package_identification Level 1 _identify(/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation) by extension 'ros'
+[0.875s] colcon.colcon_core.package_identification DEBUG Package '/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation' with type 'ros.ament_cmake' and name 'pb_rm_simulation'
+[0.875s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults

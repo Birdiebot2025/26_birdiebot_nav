@@ -1,0 +1,46 @@
+[0.057s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle -- -j8 -l8
+[0.126s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.392s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.545s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.548s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.554s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.718s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.720s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.071s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: 
+[1.088s] -- Configured cppcheck exclude dirs and/or files: 
+[1.088s] -- Added test 'lint_cmake' to check CMake code style
+[1.088s] -- Added test 'uncrustify' to check C / C++ code style
+[1.088s] -- Configured uncrustify additional arguments: 
+[1.088s] -- Added test 'xmllint' to check XML markup files
+[1.088s] -- Configuring done
+[1.108s] -- Generating done
+[1.109s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle
+[1.272s] [35m[1mConsolidate compiler generated dependencies of target dip_angle[0m
+[1.417s] [100%] Built target dip_angle
+[1.477s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle -- -j8 -l8
+[1.785s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle
+[1.819s] -- Install configuration: ""
+[1.819s] -- Execute custom install script
+[1.819s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/lib/dip_angle/dip_angle
+[1.819s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/package_run_dependencies/dip_angle
+[1.819s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/parent_prefix_path/dip_angle
+[1.819s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.sh
+[1.819s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/ament_prefix_path.dsv
+[1.821s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.sh
+[1.822s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/environment/path.dsv
+[1.824s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.bash
+[1.825s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.sh
+[1.826s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.zsh
+[1.826s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/local_setup.dsv
+[1.827s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.dsv
+[1.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/ament_index/resource_index/packages/dip_angle
+[1.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig.cmake
+[1.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/cmake/dip_angleConfig-version.cmake
+[1.849s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/dip_angle/share/dip_angle/package.xml
+[1.873s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/dip_angle

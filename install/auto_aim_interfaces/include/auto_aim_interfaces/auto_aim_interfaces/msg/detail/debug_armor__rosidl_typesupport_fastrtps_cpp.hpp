@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp

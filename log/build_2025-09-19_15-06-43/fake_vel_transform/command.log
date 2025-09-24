@@ -1,0 +1,4 @@
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform -- -j8 -l8
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform -- -j8 -l8
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/fake_vel_transform

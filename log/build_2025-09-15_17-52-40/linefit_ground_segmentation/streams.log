@@ -1,0 +1,119 @@
+[0.048s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation
+[1.735s] -- The C compiler identification is GNU 11.4.0
+[1.735s] -- The CXX compiler identification is GNU 11.4.0
+[1.736s] -- Detecting C compiler ABI info
+[1.736s] -- Detecting C compiler ABI info - done
+[1.736s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.736s] -- Detecting C compile features
+[1.736s] -- Detecting C compile features - done
+[1.736s] -- Detecting CXX compiler ABI info
+[1.736s] -- Detecting CXX compiler ABI info - done
+[1.736s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.736s] -- Detecting CXX compile features
+[1.736s] -- Detecting CXX compile features - done
+[1.736s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.736s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.736s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.736s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.736s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.736s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.736s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.736s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.736s] -- Looking for pthread.h
+[1.736s] -- Looking for pthread.h - found
+[1.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.737s] -- Found Threads: TRUE  
+[1.853s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.855s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.855s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.074s] -- Checking for module 'eigen3'
+[3.185s] --   Found eigen3, version 3.4.0
+[3.610s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.610s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.701s] -- Checking for module 'flann'
+[3.800s] --   Found flann, version 1.9.1
+[4.153s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.153s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.113s] -- Checking for module 'libusb-1.0'
+[8.240s] --   Found libusb-1.0, version 1.0.25
+[8.543s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.544s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.879s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.153s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.160s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.175s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.372s] -- Found Qhull version 8.0.2
+[9.527s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.663s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.664s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.665s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.666s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.667s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.668s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.668s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.668s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.669s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.670s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.675s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.675s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.675s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.675s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.675s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.676s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.676s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.679s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.679s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.679s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.681s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.681s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.681s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.682s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.684s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.795s] -- Configuring done
+[9.886s] -- Generating done
+[9.889s] -- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation
+[9.932s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation
+[9.939s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation -- -j8 -l8
+[10.162s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[10.163s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[10.163s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[10.163s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[23.585s] [100%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[24.572s] [100%] Built target linefit_ground_segmentation
+[24.610s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation -- -j8 -l8
+[24.740s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation
+[26.077s] -- Install configuration: ""
+[26.077s] -- Execute custom install script
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[26.077s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[26.078s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[26.091s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation

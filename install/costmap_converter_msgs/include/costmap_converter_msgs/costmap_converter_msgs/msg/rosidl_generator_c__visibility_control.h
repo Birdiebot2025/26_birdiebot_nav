@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter_msgs/rosidl_generator_c/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h

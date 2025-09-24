@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__type_support.h

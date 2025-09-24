@@ -1,0 +1,11 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/icp_registration_uninstall.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/icp_registration.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/icp_registration_node.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/test.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/edit_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/rebuild_cache.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/list_install_components.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/install.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/install/local.dir
+/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/CMakeFiles/install/strip.dir

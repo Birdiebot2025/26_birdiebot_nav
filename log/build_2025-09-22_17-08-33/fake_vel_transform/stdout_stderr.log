@@ -1,0 +1,32 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/fake_vel_transform.dir/src/fake_vel_transform.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable fake_vel_transform_node[0m
+[ 75%] Built target fake_vel_transform_node
+[100%] [32m[1mLinking CXX shared library libfake_vel_transform.so[0m
+[100%] Built target fake_vel_transform
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/lib/fake_vel_transform/fake_vel_transform_node
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/include/fake_vel_transform/fake_vel_transform.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/library_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/lib/libfake_vel_transform.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/launch/fake_vel_transform.launch.py
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/ament_index/resource_index/package_run_dependencies/fake_vel_transform
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/ament_index/resource_index/parent_prefix_path/fake_vel_transform
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/path.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/environment/path.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/local_setup.bash
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/local_setup.sh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/local_setup.zsh
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/package.dsv
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/ament_index/resource_index/packages/fake_vel_transform
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/ament_index/resource_index/rclcpp_components/fake_vel_transform
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/cmake/fake_vel_transformConfig-version.cmake
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/fake_vel_transform/share/fake_vel_transform/package.xml

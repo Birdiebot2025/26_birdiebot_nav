@@ -1,0 +1,239 @@
+[0.020s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces -- -j8 -l8
+[0.083s] [ 11%] Built target auto_aim_interfaces__rosidl_generator_c
+[0.086s] [ 12%] Built target auto_aim_interfaces__cpp
+[0.088s] [ 12%] Built target ament_cmake_python_symlink_auto_aim_interfaces
+[0.174s] [ 24%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[0.194s] [ 35%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[0.201s] [ 47%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[0.218s] [ 58%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[0.218s] [ 70%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[0.219s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.315s] [ 81%] Built target auto_aim_interfaces
+[0.396s] [ 82%] Built target auto_aim_interfaces__py
+[0.474s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[0.522s] [ 95%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[0.532s] [ 97%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.550s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.565s] running egg_info
+[0.565s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[0.565s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[0.565s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[0.565s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.565s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.593s] [100%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[0.624s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces -- -j8 -l8
+[0.970s] Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces
+[0.979s] -- Install configuration: ""
+[0.980s] -- Execute custom install script
+[0.980s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[0.981s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[0.982s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[0.983s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[0.984s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[0.985s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[0.986s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[0.986s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[0.987s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[0.988s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[0.989s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.hpp
+[0.990s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[0.991s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[0.992s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[0.994s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[0.995s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[0.997s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[0.998s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.998s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.000s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.000s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.000s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.000s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[1.001s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[1.002s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[1.002s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[1.005s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[1.006s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[1.007s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[1.007s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[1.007s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[1.008s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[1.008s] -- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.021s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.022s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.022s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.022s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[1.022s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[1.022s] -- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.022s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[1.054s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[1.056s] Listing '/home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[1.062s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[1.063s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[1.063s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.063s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[1.064s] -- Up-to-date: /home/hero/Desktop/birdiebot_nav_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.084s] Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces

@@ -1,0 +1,4 @@
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation -- -j8 -l8
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation -- -j8 -l8
+Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation
+Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/pb_rm_simulation

@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/cv_decision__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,72 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found nav2_behavior_tree: 1.1.14 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_costmap_2d: 1.1.14 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+-- Found nav2_core: 1.1.14 (/opt/ros/humble/share/nav2_core/cmake)
+-- Found nav2_behaviors: 1.1.18 (/opt/ros/humble/share/nav2_behaviors/cmake)
+-- Setting build type to Release as none was specified.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hero/Desktop/birdiebot_nav_ws/build/potential_escape
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_escape_behavior.dir/src/potential_escape.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_escape_behavior.so[0m
+[100%] Built target nav2_escape_behavior
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape//behavior_plugin.xml
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/lib/libnav2_escape_behavior.so
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/lib/libnav2_escape_behavior.so
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/include//potential_escape/potential_escape.hpp
+-- Up-to-date symlink: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/behavior_plugin.xml
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/library_path.sh
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/library_path.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/package_run_dependencies/potential_escape
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/parent_prefix_path/potential_escape
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/ament_prefix_path.sh
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/ament_prefix_path.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/path.sh
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/environment/path.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.bash
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.sh
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.zsh
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/local_setup.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/package.dsv
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/packages/potential_escape
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/nav2_core__pluginlib__plugin/potential_escape
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/ament_index/resource_index/rclcpp_components/potential_escape
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/potential_escapeConfig.cmake
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/cmake/potential_escapeConfig-version.cmake
+-- Symlinking: /home/hero/Desktop/birdiebot_nav_ws/install/potential_escape/share/potential_escape/package.xml

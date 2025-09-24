@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

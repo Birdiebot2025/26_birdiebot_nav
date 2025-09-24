@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <SubGameStatus topic_name="game_status"
+                     game_status="{game_status}"/>
+      <Sequence>
+        <IsGameStart message="{game_status}"/>
+        <SendGoal goal_pose="3.16;-0.15;0; 0;0;0;1"
+                  action_name="navigate_to_pose"/>
+      </Sequence>
+      <Sequence>
+        <IfThenElse>
+          <IsSupply message="{game_status}"
+                    flag_time="360"
+                    bullet_threshold="0"/>
+          <Sequence>
+            <SendGoal goal_pose="3.11;-2.5;0; 0;0;0;1"
+                      action_name="navigate_to_pose"/>
+            <SleepAction sleep_duration="5000"/>
+          </Sequence>
+          <SimpleSuccess/>
+        </IfThenElse>
+      </Sequence>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="IsGameStart"
+            editable="true">
+      <input_port name="message"
+                  default="{game_status}"/>
+    </Action>
+    <Action ID="IsSupply"
+            editable="true">
+      <input_port name="message"
+                  default="{game_status}"/>
+      <input_port name="flag_time"
+                  default="300"/>
+      <input_port name="bullet_threshold"
+                  default="0"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0;0;0; 0;0;0;1"/>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <Action ID="SimpleSuccess"/>
+    <Action ID="SleepAction"
+            editable="true">
+      <input_port name="sleep_duration"
+                  default="5000"/>
+    </Action>
+    <Action ID="SubGameStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="game_status"/>
+      <output_port name="game_status"
+                   default="{game_status}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
