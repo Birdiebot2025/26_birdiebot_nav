@@ -1,6 +1,0 @@
-{
-  "package_name": "btcpp_ros2_interfaces",
-  "non_idl_tuples": [
-    "/home/hero/Desktop/birdiebot_nav_ws/src/rm_behavior_tree/BehaviorTree.ROS2/btcpp_ros2_interfaces:action/Sleep.action"
-  ]
-}

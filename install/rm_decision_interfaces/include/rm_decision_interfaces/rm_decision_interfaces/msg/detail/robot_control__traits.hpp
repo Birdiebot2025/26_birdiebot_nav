@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_generator_cpp/rm_decision_interfaces/msg/detail/robot_control__traits.hpp

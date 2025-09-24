@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hero/Desktop/birdiebot_nav_ws/build/icp_registration/libicp_registration.so" "TARGETS" "icp_registration" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

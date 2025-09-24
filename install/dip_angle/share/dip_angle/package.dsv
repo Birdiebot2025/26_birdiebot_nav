@@ -1,8 +1,0 @@
-source;share/dip_angle/hook/cmake_prefix_path.ps1
-source;share/dip_angle/hook/cmake_prefix_path.dsv
-source;share/dip_angle/hook/cmake_prefix_path.sh
-source;share/dip_angle/local_setup.bash
-source;share/dip_angle/local_setup.dsv
-source;share/dip_angle/local_setup.ps1
-source;share/dip_angle/local_setup.sh
-source;share/dip_angle/local_setup.zsh

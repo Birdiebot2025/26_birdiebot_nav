@@ -1,4 +1,0 @@
-Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2 -- -j8 -l8
-Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2 -- -j8 -l8
-Invoking command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2
-Invoked command in '/home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hero/Desktop/birdiebot_nav_ws/build/livox_ros_driver2

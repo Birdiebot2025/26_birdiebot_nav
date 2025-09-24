@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hero/Desktop/birdiebot_nav_ws/build/navigation_data_processer/navigation_data_processer" "TARGETS" "navigation_data_processer" "DESTINATION" "lib/navigation_data_processer")

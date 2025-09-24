@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src/launch/msg_HAP_launch.py

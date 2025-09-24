@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/terrain_analysis/ament_cmake_environment_hooks/local_setup.zsh

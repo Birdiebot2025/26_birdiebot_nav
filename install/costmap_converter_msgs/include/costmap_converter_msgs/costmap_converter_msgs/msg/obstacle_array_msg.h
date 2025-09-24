@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/costmap_converter_msgs/rosidl_generator_c/costmap_converter_msgs/msg/obstacle_array_msg.h

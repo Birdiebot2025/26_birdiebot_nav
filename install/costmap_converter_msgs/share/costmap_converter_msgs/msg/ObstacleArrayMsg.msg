@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_navigation/costmap_converter/costmap_converter_msgs/msg/ObstacleArrayMsg.msg

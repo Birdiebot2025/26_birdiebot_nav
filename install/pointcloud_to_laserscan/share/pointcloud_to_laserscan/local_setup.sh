@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/local_setup.sh

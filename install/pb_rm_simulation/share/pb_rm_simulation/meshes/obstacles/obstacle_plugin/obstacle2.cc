@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_simulation/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle2.cc

@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces/ament_cmake_core/auto_aim_interfacesConfig.cmake

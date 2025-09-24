@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation_ros/ground_segmentation_node" "/home/hero/Desktop/birdiebot_nav_ws/build/linefit_ground_segmentation_ros/ground_segmentation_test_node" "TARGETS" "ground_segmentation_node" "ground_segmentation_test_node" "DESTINATION" "lib/linefit_ground_segmentation_ros")

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hero/Desktop/birdiebot_nav_ws/build/fake_baselink/libfake_baselink.so" "TARGETS" "fake_baselink" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

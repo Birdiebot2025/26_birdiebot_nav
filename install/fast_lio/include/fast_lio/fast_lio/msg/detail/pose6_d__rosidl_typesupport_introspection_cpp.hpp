@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/fast_lio/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp

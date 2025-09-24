@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/navigation_interfaces/rosidl_typesupport_fastrtps_cpp/navigation_interfaces/msg/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp

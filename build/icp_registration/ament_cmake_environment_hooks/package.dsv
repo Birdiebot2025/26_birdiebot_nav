@@ -1,4 +1,0 @@
-source;share/icp_registration/local_setup.bash
-source;share/icp_registration/local_setup.dsv
-source;share/icp_registration/local_setup.sh
-source;share/icp_registration/local_setup.zsh

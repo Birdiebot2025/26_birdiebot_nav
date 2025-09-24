@@ -1,6 +1,0 @@
-{
-  "package_name": "fast_lio",
-  "non_idl_tuples": [
-    "/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_localization/FAST_LIO:msg/Pose6D.msg"
-  ]
-}

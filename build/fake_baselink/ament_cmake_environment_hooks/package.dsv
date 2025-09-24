@@ -1,4 +1,0 @@
-source;share/fake_baselink/local_setup.bash
-source;share/fake_baselink/local_setup.dsv
-source;share/fake_baselink/local_setup.sh
-source;share/fake_baselink/local_setup.zsh

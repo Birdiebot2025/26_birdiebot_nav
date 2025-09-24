@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hero/Desktop/birdiebot_nav_ws/build/ros2_livox_simulation/libros2_livox.so" "TARGETS" "ros2_livox" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,7 +1,0 @@
-{
-  "package_name": "livox_ros_driver2",
-  "non_idl_tuples": [
-    "/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src:msg/CustomPoint.msg",
-    "/home/hero/Desktop/birdiebot_nav_ws/src/rm_slam/src/rm_driver/livox_ros_driver2/src:msg/CustomMsg.msg"
-  ]
-}

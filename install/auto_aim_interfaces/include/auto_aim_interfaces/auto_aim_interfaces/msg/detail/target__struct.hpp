@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/target__struct.hpp

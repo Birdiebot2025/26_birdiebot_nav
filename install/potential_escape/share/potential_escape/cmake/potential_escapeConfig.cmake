@@ -1,1 +1,0 @@
-/home/hero/Desktop/birdiebot_nav_ws/build/potential_escape/ament_cmake_core/potential_escapeConfig.cmake
