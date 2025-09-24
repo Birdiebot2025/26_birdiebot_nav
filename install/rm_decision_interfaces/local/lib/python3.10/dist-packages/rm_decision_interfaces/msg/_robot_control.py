@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_generator_py/rm_decision_interfaces/msg/_robot_control.py

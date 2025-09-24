@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/dip_angle/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,11 @@
+source;share/fake_baselink/hook/cmake_prefix_path.ps1
+source;share/fake_baselink/hook/cmake_prefix_path.dsv
+source;share/fake_baselink/hook/cmake_prefix_path.sh
+source;share/fake_baselink/hook/ld_library_path_lib.ps1
+source;share/fake_baselink/hook/ld_library_path_lib.dsv
+source;share/fake_baselink/hook/ld_library_path_lib.sh
+source;share/fake_baselink/local_setup.bash
+source;share/fake_baselink/local_setup.dsv
+source;share/fake_baselink/local_setup.ps1
+source;share/fake_baselink/local_setup.sh
+source;share/fake_baselink/local_setup.zsh

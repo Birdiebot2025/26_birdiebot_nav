@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_navigation/ament_cmake_core/rm_navigationConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_decision_interfaces/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/robot_control__rosidl_typesupport_introspection_c.h

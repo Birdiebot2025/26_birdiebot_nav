@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/rm_auto_aim/ament_cmake_core/rm_auto_aimConfig.cmake

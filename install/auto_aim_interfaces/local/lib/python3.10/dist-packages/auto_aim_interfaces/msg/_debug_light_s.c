@@ -1,0 +1,1 @@
+/home/hero/Desktop/birdiebot_nav_ws/build/auto_aim_interfaces/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c
