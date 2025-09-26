@@ -202,8 +202,40 @@ controller_server:
     #   Twirling.scale: 32.0
 
     FollowPath:
+      # plugin: "pb_omni_pid_pursuit_controller::OmniPidPursuitController"
+      # translation_kp: 3.0
+      # translation_ki: 0.0
+      # translation_kd: 0.0
+      # enable_rotation: false
+      # rotation_kp: 3.0
+      # rotation_ki: 0.1
+      # rotation_kd: 0.3
+      # transform_tolerance: 0.2
+      # min_max_sum_error: 1.0
+      # lookahead_dist: 1.0
+      # use_velocity_scaled_lookahead_dist: true
+      # lookahead_time: 0.5
+      # min_lookahead_dist: 0.5
+      # max_lookahead_dist: 1.0
+      # use_interpolation: True
+      # use_rotate_to_heading: false
+      # use_rotate_to_heading_treshold: 0.1
+      # min_approach_linear_velocity: 0.0
+      # approach_velocity_scaling_dist: 1.5
+      # v_linear_min: -2.5
+      # v_linear_max: 2.5
+      # v_angular_min: -10.0
+      # v_angular_max: 10.0
+      # curvature_min: 0.4
+      # curvature_max: 0.7
+      # reduction_ratio_at_high_curvature: 0.6
+      # curvature_forward_dist: 1.0
+      # curvature_backward_dist: 0.3
+      # max_velocity_scaling_factor_rate: 0.9
+
+
       plugin: "pb_omni_pid_pursuit_controller::OmniPidPursuitController"
-      translation_kp: 3.0
+      translation_kp: 6.0
       translation_ki: 0.0
       translation_kd: 0.0
       enable_rotation: false
@@ -222,8 +254,8 @@ controller_server:
       use_rotate_to_heading_treshold: 0.1
       min_approach_linear_velocity: 0.0
       approach_velocity_scaling_dist: 1.5
-      v_linear_min: -2.5
-      v_linear_max: 2.5
+      v_linear_min: -6.5
+      v_linear_max: 6.5
       v_angular_min: -10.0
       v_angular_max: 10.0
       curvature_min: 0.4
@@ -232,7 +264,8 @@ controller_server:
       curvature_forward_dist: 1.0
       curvature_backward_dist: 0.3
       max_velocity_scaling_factor_rate: 0.9
-    
+
+
 local_costmap:
   local_costmap:
     ros__parameters:
@@ -262,7 +295,10 @@ local_costmap:
 
 #add
         observation_persistence: 0.0
-
+        # raytrace_max_range: 3.0
+        # obstacle_max_range: 3.0
+        # max_obstacle_height: 0.5   # 或者 0.6
+        # min_obstacle_height: 0.05
 
         livox: 
           topic: /scan
