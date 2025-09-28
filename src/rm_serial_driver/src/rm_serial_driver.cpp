@@ -345,8 +345,14 @@ void RMSerialDriver::sendNavData(geometry_msgs::msg::Twist msg)
     packet.gimbal.pit = msg.angular.y;
     packet.gimbal.yaw = msg.angular.z;
     packet.chassis_move_vec.vx = msg.linear.x;
-    packet.chassis_move_vec.vy = -msg.linear.y;
+    packet.chassis_move_vec.vy = msg.linear.y;
     packet.chassis_move_vec.wz = msg.linear.z;
+
+    //serial_debug
+    // packet.chassis_move_vec.vx = 0.0;
+    // packet.chassis_move_vec.vy = 1.0;
+    // packet.chassis_move_vec.wz = msg.linear.z;
+
     crc16::Append_CRC16_Check_Sum(reinterpret_cast<uint8_t *>(&packet), sizeof(packet));
 
     memcpy(tx_.data + sizeof(tx_.sof) + sizeof(tx_.data_len), &packet, sizeof(packet));
