@@ -202,6 +202,7 @@ controller_server:
     #   Twirling.scale: 32.0
 
     FollowPath:
+      #Birdiebot
       # plugin: "pb_omni_pid_pursuit_controller::OmniPidPursuitController"
       # translation_kp: 3.0
       # translation_ki: 0.0
@@ -233,7 +234,7 @@ controller_server:
       # curvature_backward_dist: 0.3
       # max_velocity_scaling_factor_rate: 0.9
 
-
+      #origin
       plugin: "pb_omni_pid_pursuit_controller::OmniPidPursuitController"
       translation_kp: 6.0
       translation_ki: 0.0
